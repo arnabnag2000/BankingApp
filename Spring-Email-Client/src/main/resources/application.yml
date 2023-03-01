@@ -1,0 +1,20 @@
+server:
+  port: 8089
+spring:
+  application:
+    name: email-service
+  config:
+    import: configserver:http://localhost:9296
+  mail:
+    host: smtp.gmail.com
+    password: ogqjwhbzkgyhkupx
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    username: arnabnag56@gmail.com
+   
+

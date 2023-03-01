@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "spring.mail.application.name",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.mail.application.name'"
+  },
+  {
+    "name": "spring.mail.config.import",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.mail.config.import'"
+  },
+  {
+    "name": "spring.config.import",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.config.import'"
+  }
+]}

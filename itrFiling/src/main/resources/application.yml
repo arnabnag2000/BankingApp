@@ -1,0 +1,19 @@
+profilejwt:
+  baseurl: http://localhost:8083
+server:
+  port: 8086
+spring:
+  application:
+    name: itrFiling
+  config:
+     import: configserver:http://localhost:9296
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  main:
+    banner-mode: 'off'
+  
+  
+
+    
