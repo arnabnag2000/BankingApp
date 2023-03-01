@@ -7,7 +7,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/arnabnag2000/ArnabTaxApp.git
-          username: arnabnag2000
-          password: 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
+          uri: https://github.com/000anonymous200/ArnabTaxApp.git
+          username: 000anonymous200
+          password: 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
           clone-on-start: true
