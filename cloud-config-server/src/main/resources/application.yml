@@ -9,5 +9,5 @@ spring:
         git:
           uri: https://github.com/arnabnag2000/ArnabTaxApp.git
           username: arnabnag2000
-          password: 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
+          password: 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
           clone-on-start: true
