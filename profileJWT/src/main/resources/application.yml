@@ -1,0 +1,18 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: profileJWT
+  config:
+     import: configserver:http://localhost:9296
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  main:
+    banner-mode: 'off'
+  
+  
+jwt:
+  secret: secretkey123
+    
