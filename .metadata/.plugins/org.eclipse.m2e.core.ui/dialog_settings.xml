@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\arnnag\sts-4.16.1.RELEASE\Tax2\payment-gateway-service"/>
+			<item value="C:\Users\arnnag\sts-4.16.1.RELEASE\Tax2\Paytm-Payment-Management"/>
+			<item value="C:\Users\arnnag\sts-4.16.1.RELEASE\Tax2\Spring-Email-Client"/>
+			<item value="C:\Users\arnnag\sts-4.16.1.RELEASE\Tax2\taxCalculator"/>
+			<item value="C:\Users\arnnag\sts-4.16.1.RELEASE\Tax2\profileJWT"/>
+			<item value="C:\Users\arnnag\sts-4.16.1.RELEASE\Tax2\discovery_server"/>
+			<item value="C:\Users\arnnag\sts-4.16.1.RELEASE\Tax2\cloud-config-server"/>
+			<item value="C:\Users\arnnag\sts-4.16.1.RELEASE\Tax2\api_gateway"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>
