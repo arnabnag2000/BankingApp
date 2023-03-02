@@ -3,11 +3,13 @@ package com.dailycodebuffer.springemailclient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.event.EventListener;
+
 import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 import org.springframework.web.client.RestTemplate;
 
@@ -21,8 +23,8 @@ import javax.mail.MessagingException;
 
 @SpringBootApplication
 @EnableEurekaClient
+@EntityScan("com..") 
 @ComponentScan("com..")
-@EnableMongoRepositories(basePackages = "com..")
 @OpenAPIDefinition(info=@Info(title="TaxEmail",version="3.0",description="Tax Email MicroService"))
 @SecurityScheme(name = "TaxEmail", scheme = "bearer", type = SecuritySchemeType.HTTP, in = SecuritySchemeIn.HEADER)
 public class SpringEmailClientApplication {
