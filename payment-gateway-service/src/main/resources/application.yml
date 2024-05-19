@@ -1,7 +1,7 @@
 paypal:
   client:
-    id: AYFy3uGQaylAhy3A6l6vCwsbehhCzdF0rn33QE_5nJBzGwqUPQnwskFgf7E8FK_meSu6QEqenZxQ2QgW
-    secret: EBauWsIqsMLteEX0JVG1vvSDhMVsv-DOZhpx_jBAHmLSKB531JdIE-lCeKrovIP9r-m6c8G75wxDIeqJ
+    id: *************************************
+    secret: ***********************************************
   mode: sandbox
 server:
   port: 9090
