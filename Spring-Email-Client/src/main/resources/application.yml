@@ -7,7 +7,7 @@ spring:
     import: configserver:http://localhost:9296
   mail:
     host: smtp.gmail.com
-    password: ogqjwhbzkgyhkupx
+    password: *******
     port: 587
     properties:
       mail:
@@ -15,6 +15,6 @@ spring:
           auth: true
           starttls:
             enable: true
-    username: arnabnag56@gmail.com
+    username: *******@gmail.com
    
 
